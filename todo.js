@@ -14,6 +14,9 @@ addButton.addEventListener("click", function(){
             newTodo.addEventListener("click", function(){
                 
                 newTodo.style.textDecorationLine = "line-through";
+                //i tried to do it the way you did it in class
+                //this was the only way i could get it to work
+
 
                 setTimeout(() => {
                     newTodo.remove()
